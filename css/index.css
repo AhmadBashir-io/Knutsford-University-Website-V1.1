@@ -1,0 +1,428 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: auto;
+  /*font-family: 'Josefin Slab', serif;*/
+font-family: 'Poiret One', cursive;
+/*font-family: 'Bad Script', cursive;*/
+}
+.top{
+  height: 43px;
+  max-width: 700px;
+  position: relative;
+  border-radius: 0px 0px 12px 0px;
+  background: rgba(0, 0, 0, 0.8);
+}
+.top-text{
+  color: #fed123;
+  padding: 13px 10px;
+}
+.top-text a{
+  color: #ccc;
+  text-decoration: none;
+  transition: all 0.39s ease;
+}
+.info-name{
+  color: #fed123;
+  font-family: 'Satisfy', cursive;
+}
+.top a:hover{
+  color: #fff;
+}
+header{
+  height: 600px;
+}
+.info{
+  height: 100%;
+  box-shadow: 1px 1px 17px rgba(0, 0, 0, 0.5);
+  background: #fff;
+  padding: 40px 20px;
+  border-top: 3px solid #fed123;
+}
+.info-text{
+  font-family: 'Satisfy', cursive;
+  font-size: 28px;
+  text-align: center;
+}
+.slideshow{
+  height: 540px;
+}
+.navigation{
+  height: 60px;
+  background: rgba(0, 0, 0, 0.97);
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.7);
+}
+.logo-div{
+  margin: 0px 20px;
+
+}
+.logo{
+  margin: 7px 0px;
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.logo-name{
+  color: #fff;
+  float: left;
+  font-size: 26px;
+
+  margin: 10px;
+}
+.discover,.academics,.admission,.campus-life{
+  height: 100%;
+}
+.academics{
+
+  background: url("../img/class.JPG") center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.break{
+  background-color: #fff;
+  height: 55px;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    max-width: 780px;
+    margin: auto;
+    padding: 20px;
+}
+.news-flex-container,.events-flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: auto;
+    padding: 20px;
+}
+.events-flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    max-width: 980px;
+    margin: auto;
+    padding: 20px;
+}
+.discover{
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.35);
+  padding: 0px 0px 70px 0px;
+
+}
+.discover-more{
+  padding: 10px 12px;
+  border: 1px solid #222;
+  color: #000;
+  margin-left: 24.99%;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all 0.6s ease;
+}
+.discover-more:hover{
+  color: #555;
+  background-color: #fed123;
+  border: 1px solid #fed123;
+
+}
+.satisfy{
+  font-family: 'Satisfy', cursive;
+
+}
+.white{
+  color: #fff;
+}
+.center-text{
+  text-align: center;
+  font-size: 26px;
+  max-width: 500px;
+  margin: auto;
+}
+.text-item{
+  width: 300px;
+  height: 300px;
+  border-radius: 4px;
+  margin: 20px;
+  border-top: 1px  solid #aaa;
+  border-bottom: 1px  solid #aaa;
+  transition: all 0.5s ease;
+}
+.text-item:hover{
+  padding:  10px 0px;
+  border-top: 1px  solid #000;
+  border-bottom: 1px  solid #000;
+}
+.img-item{
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 70px rgba(0,0,0,.3);
+  margin: 20px;
+}
+.disc-img{
+  width: 100%;
+  height:230px;
+}
+.academic-img{
+    width: 100%;
+    height:100%;
+    border-radius: 0px 10px 0px 0px;
+}
+.title-container{
+  margin: auto;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.9 );
+  max-width: 400px;
+  height: 60px;
+  border-radius: 0px 0px 10px 10px;
+}
+.title{
+  font-size: 28px;
+  padding: 13px 5px;
+  text-align: center;
+  color: #fed123;
+}
+.news-events{
+  height: 100%;
+  background: url("../img/gym.JPG") center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.news-events2{
+  height: 100%;
+  box-shadow: 0px 0px 1000px rgba(0, 0, 0, 0.8);
+}
+.yellow{
+  color: #fed123;
+}
+.black{
+  color: #000;
+}
+.sub-text{
+  font-size: 34px;
+  font-weight: bold;
+  text-align: center;
+}
+  .news,.events{
+  margin: 0px 10px;
+  background: rgba(0,0,0,.9);
+  height: 100%;
+  padding: 15px;
+  border-radius: 0px 8px 3px 3px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  max-width: 1010px;
+}
+.the-left-subtitle{
+  margin-left: 10px;
+  color: #fff;
+  border-bottom: 2px solid #fed123;
+  max-width: 130px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 3px 3px 0px 0px;
+}
+.the-right-subtitle{
+    float: right;
+    margin: -8px 10px 0px 0px;
+    color: #fff;
+    border-bottom: 2px solid #fed123;
+    max-width: 180px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 3px 3px 0px 0px;
+}
+.news-item{
+  max-width: 320px;
+  height: 340px;
+  background-color: #fed123;
+  box-shadow: 2px 1px 9px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin: 5px;
+}
+.events-item{
+  max-width: 280px;
+  background: #fed123;
+  max-height: 340px;
+  margin: 5px 5px 0px 5px;
+  box-shadow: 2px 1px 9px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.events-img,.news-img{
+  max-width: 300px;
+  margin: 5px;
+  height: 250px;
+  border: 1px solid #ddd;
+}
+.events-title{
+ text-align: center;
+}
+.date{
+  float: left;
+  padding: 14px 6px;
+  color: #fff;
+  margin-top:5px;
+  background: #444;
+  width: 90px;
+  border-radius: 0px 3px 0px 5px;
+}
+.all-news{
+  float: right;
+  margin-right: 10px;
+  border-top: 2px solid #fed123;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 8px 10px;
+  border-radius: 0px 0px 4px 4px;
+}
+.all-events{
+    float: left;
+    margin-left: 10px;
+    border-top: 2px solid #fed123;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8px 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+.all-news-link,.all-events-link{
+  color: #fff;
+  text-decoration: none;
+}
+.acad-info,.admiss-info{
+  text-align: center;
+  background-color: rgba(0,0,0,.9);
+  max-width: 600px;
+  height: 70px;
+  font-size: 20px;
+  margin: auto;
+  padding: 10px;
+  color: #fff;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.acad-body{
+  max-width: 800px;
+  height: 480px;
+  box-shadow: 0px 0px 14px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 100px solid #000;
+  margin: auto;
+  background-color: rgba(255,255,255,.9);
+}
+.black-bg{
+  background: rgba(0, 0, 0, 0.68);
+  transition: all 1.2s ease;
+
+}
+.acad-img{
+  width: 50% ;
+  height: 100%;
+  padding: 5px 5px 5px 0px;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  float: right;
+}
+.acad-text{
+  float: left;
+  margin: 100px 0px 0px 40px;
+  max-width: 300px;
+}
+.admission{
+  background: #fff;
+  box-shadow: 0px 0px 1000px rgba(0, 0, 0, 0.8);
+}
+.campus-life{
+
+    background: url("../img/pool.JPG") center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.black-bg:hover{
+  background: rgba(0,0,0,.89);
+}
+.admiss-body{
+  max-width: 800px;
+  height: 480px;
+  box-shadow: 0px 0px 14px  rgba(0, 0, 0, 0.3);
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 100px solid #000;
+  margin: auto;
+  background-color: rgba(255,255,255,.9);
+}
+.admiss-img{
+  width: 50%;
+  height: 100%;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+  float: right;
+}
+.admission-img{
+    width: 100%;
+    height: 100%;
+}
+.admiss-text{
+  float: right;
+  margin: 100px 40px 0px 0px;
+  max-width: 300px;
+}
+.campus-body{
+  max-width: 690px;
+  height: 550px;
+  padding: 30px;
+  border-radius: 0px 10px 0px 0px;
+  background-color: rgba(0,0,0,0.96);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.7);
+}
+.campus-text{
+  color: #fff;
+  max-width: 380px;
+}
+.white-bottom{
+  height: 130px;
+  background-color: #fff;
+  max-width: 750px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+  border-top: 2px solid #fed123;
+}
+.center{
+  margin: auto;
+}
+.success-stories{
+  background: #fff;
+  height: 100%;
+  box-shadow: 0px 0px 1000px rgba(0, 0, 0, 0.8);
+}
+.success-body{
+  margin: auto;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+  max-width: 750px;
+  height: 550px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+
+}
+.sub-body{
+  background-color: rgb(55, 55,55);
+  height: 350px;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+}
+.success-text{
+  text-align: center;
+  color: #fff;
+}
+footer{
+  background-color: #000;
+  height: 350px;
+  box-shadow: 0px 0px 140px rgba(0, 0, 0, 0.6);
+
+}
